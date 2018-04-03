@@ -64,7 +64,7 @@ def last_no_recursion(node):
 def level_traversal(node):
     pass
 
-tree_list = [1,5,2]
+tree_list = [1,5,2,null,3,4,7,8]
 node = construct_tree(tree_list,0)
 print('先序遍历：')
 pre(node)
